@@ -15,7 +15,7 @@ F:/Nukio_project/jump_game/game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55857
+57579
 Successfully changed project path to: F:/Nukio_project/jump_game/game
 F:/Nukio_project/jump_game/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ F:/Nukio_project/jump_game/game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 110.26 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 114.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,78 +63,78 @@ Initialize mono
 Mono path[0] = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005881 seconds.
+Registered in 0.005836 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 118.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 104.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.828 seconds
+- Completed reload, in  0.783 seconds
 Domain Reload Profiling:
-	ReloadAssembly (828ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (607ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (556ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (382ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (331ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
+				RefreshPlugins (105ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008019 seconds.
+Registered in 0.008403 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\Nukio_project\jump_game\game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Nukio_project\jump_game\game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 104.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 124.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.110 seconds
+- Completed reload, in  1.458 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2111ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1808ms)
-			LoadAssemblies (715ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1159ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
+			SetupTypeCache (323ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (680ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (603ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (339ms)
-				ProcessInitializeOnLoadMethodAttributes (119ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -142,13 +142,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4041 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (229.0 KB). Loaded Objects now: 4491.
-Memory consumption went from 150.6 MB to 150.3 MB.
-Total: 4.254700 ms (FindLiveObjects: 0.437500 ms CreateObjectMapping: 0.118900 ms MarkObjects: 3.509900 ms  DeleteObjects: 0.187100 ms)
+Memory consumption went from 150.6 MB to 150.4 MB.
+Total: 4.468800 ms (FindLiveObjects: 0.411600 ms CreateObjectMapping: 0.121200 ms MarkObjects: 3.726500 ms  DeleteObjects: 0.208100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,7 +162,161 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 514262.366761 seconds.
-  path: Assets/Res/Hello.png
-  artifactKey: Guid(bfbceaf0c16b66e4a8108ea951683e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Res/Hello.png using Guid(bfbceaf0c16b66e4a8108ea951683e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980fb43a68289551ad334041fbca3d93') in 0.280250 seconds 
+  Time since last request: 235.883287 seconds.
+  path: Assets/Res/Background/Blue.png
+  artifactKey: Guid(35cfd44780f5980419abb1a9ac0df7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Background/Blue.png using Guid(35cfd44780f5980419abb1a9ac0df7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72579328f74fc3afc0dad346c3787bb') in 0.152873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/Background
+  artifactKey: Guid(0d8527b78143f7b4c9a639ef530d2c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Background using Guid(0d8527b78143f7b4c9a639ef530d2c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6114a23a36d3da99d68a6034f794c2b') in 0.008156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Res/Background/Gray.png
+  artifactKey: Guid(8ac39c30f2687c948847074cbc2ac020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Background/Gray.png using Guid(8ac39c30f2687c948847074cbc2ac020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef59035157756ff7daef864fab23d27') in 0.024091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.316003 seconds.
+  path: Assets/Res/Traps/Blocks/HitTop (22x22).png
+  artifactKey: Guid(b1bebdf19befe85428f0cc013b73a192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Blocks/HitTop (22x22).png using Guid(b1bebdf19befe85428f0cc013b73a192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592b286e5434df929d6899c2104a02be') in 0.058264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Res/Traps/Blocks/Part 2 (22x22).png
+  artifactKey: Guid(9b5faff2bb8cd7346b095811ae75d1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Blocks/Part 2 (22x22).png using Guid(9b5faff2bb8cd7346b095811ae75d1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e7ed572ef9cdd757d120e1be7ec59c') in 0.028166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.094306 seconds.
+  path: Assets/Res/Traps/Falling Platforms/On (32x10).png
+  artifactKey: Guid(50e24c3adf76cb24d906d46fe0edc758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Falling Platforms/On (32x10).png using Guid(50e24c3adf76cb24d906d46fe0edc758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75cba49ebe8f6474b562d8ab1709adb') in 0.045808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.169461 seconds.
+  path: Assets/Res/Traps/Fan/On (24x8).png
+  artifactKey: Guid(adc634551bf6d4b418caf62464e0668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Fan/On (24x8).png using Guid(adc634551bf6d4b418caf62464e0668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5097e37e0a08c706ec98fa72f45457d') in 0.057162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.617957 seconds.
+  path: Assets/Res/Traps/Fire/Off.png
+  artifactKey: Guid(098333a065620f04abaa3ed049d52cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Fire/Off.png using Guid(098333a065620f04abaa3ed049d52cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0396c26531bc02606e084dc58adc5ccd') in 0.071207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.592229 seconds.
+  path: Assets/Res/Traps/Platforms/Brown On (32x8).png
+  artifactKey: Guid(88f5435465997ec4aad68dd9226b84d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Platforms/Brown On (32x8).png using Guid(88f5435465997ec4aad68dd9226b84d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70adb3cc214b37db4ab3e2afd3d3a38') in 0.090213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.507849 seconds.
+  path: Assets/Res/Traps/Rock Head/Bottom Hit (42x42).png
+  artifactKey: Guid(8051b551fe6447643b6a59fea052fd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Rock Head/Bottom Hit (42x42).png using Guid(8051b551fe6447643b6a59fea052fd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc64742498fdc76a246a96202d72d1dd') in 0.126992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Res/Traps/Rock Head/Top Hit (42x42).png
+  artifactKey: Guid(acbc0702137a0bc42a4cb1030e152e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Rock Head/Top Hit (42x42).png using Guid(acbc0702137a0bc42a4cb1030e152e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2263b7c0c5e336a6c6607b1e670ec39') in 0.032715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.618972 seconds.
+  path: Assets/Res/Traps/Sand Mud Ice/Mud Particle.png
+  artifactKey: Guid(4afdebe4e0c722c4fb92cb732e748c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Sand Mud Ice/Mud Particle.png using Guid(4afdebe4e0c722c4fb92cb732e748c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d10068488b10571ee94529a0197571') in 0.084938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.671278 seconds.
+  path: Assets/Res/Traps/Saw/Off.png
+  artifactKey: Guid(1ca5c68f876699f47826ce4903f7a772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Saw/Off.png using Guid(1ca5c68f876699f47826ce4903f7a772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29341e0325d901f8fb2c5896fa5e14f') in 0.067503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.610952 seconds.
+  path: Assets/Res/Traps/Spike Head/Bottom Hit (54x52).png
+  artifactKey: Guid(1def61f1c6583184abf4d4d12480ee2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Spike Head/Bottom Hit (54x52).png using Guid(1def61f1c6583184abf4d4d12480ee2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d5ba795172d6d5355a1a1c44673557') in 0.072411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Res/Traps/Spike Head/Right Hit (54x52).png
+  artifactKey: Guid(1f00223a4e2e8c248ba9062559b30a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Spike Head/Right Hit (54x52).png using Guid(1f00223a4e2e8c248ba9062559b30a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f8beb39c6f8155cb27b6f607b04e22') in 0.069020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.377850 seconds.
+  path: Assets/Res/Traps/Arrow/Idle (18x18).png
+  artifactKey: Guid(82a137dfcf93f744886d53eb4187ca34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Traps/Arrow/Idle (18x18).png using Guid(82a137dfcf93f744886d53eb4187ca34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1813d7e6b5752f12a6c6534140273e57') in 0.078997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.757333 seconds.
+  path: Assets/Res/Items/Boxes/Box1/Hit (28x24).png
+  artifactKey: Guid(12e5c877bfdaf9742a06093fd1bd420f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Items/Boxes/Box1/Hit (28x24).png using Guid(12e5c877bfdaf9742a06093fd1bd420f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d88a7d7e1474beb06e3a4740f3b0d96') in 0.053352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.030778 seconds.
+  path: Assets/Res/Items/Checkpoints/End/End (Pressed) (64x64).png
+  artifactKey: Guid(015355e1add7c8540a293a6fa0377891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Items/Checkpoints/End/End (Pressed) (64x64).png using Guid(015355e1add7c8540a293a6fa0377891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc083a74d1b526a150c80a773f9ccc2') in 0.079538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.700749 seconds.
+  path: Assets/Res/Main Characters/Desappearing (96x96).png
+  artifactKey: Guid(5802d10cfb0e2ef4dab17eecb769cb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Main Characters/Desappearing (96x96).png using Guid(5802d10cfb0e2ef4dab17eecb769cb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e5c7e17a32da7f7c35f512ab6ad4b1') in 0.058523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.982859 seconds.
+  path: Assets/Res/Main Characters/Mask Dude/Fall (32x32).png
+  artifactKey: Guid(7e56412eeca23bc4ca3431f7cb71c778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Main Characters/Mask Dude/Fall (32x32).png using Guid(7e56412eeca23bc4ca3431f7cb71c778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c41809293e7c4158e7bb38689eb59ee') in 0.058632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Res/Main Characters/Mask Dude/Wall Jump (32x32).png
+  artifactKey: Guid(fe645853058523e4abab9770dcb5a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Main Characters/Mask Dude/Wall Jump (32x32).png using Guid(fe645853058523e4abab9770dcb5a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9067c004ae21f142df95a8b61f34064d') in 0.075899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Res/Main Characters/Mask Dude/Jump (32x32).png
+  artifactKey: Guid(4e9e957b0864bb94795b4cd3055760c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Main Characters/Mask Dude/Jump (32x32).png using Guid(4e9e957b0864bb94795b4cd3055760c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0347abfa1b2fc54151da4f086a3c2e4') in 0.038406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.801332 seconds.
+  path: Assets/Res/Main Characters/Ninja Frog/Fall (32x32).png
+  artifactKey: Guid(f7c709984f3c8894dad78b5d782ea2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Main Characters/Ninja Frog/Fall (32x32).png using Guid(f7c709984f3c8894dad78b5d782ea2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac3bd578ffe5c01ed0fd9182c387059') in 0.067380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Res/Main Characters/Ninja Frog/Idle (32x32).png
+  artifactKey: Guid(eb2a1995f6e94e844999baab261d4d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Main Characters/Ninja Frog/Idle (32x32).png using Guid(eb2a1995f6e94e844999baab261d4d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750206e2c3e79925388fa5aa65dddfef') in 0.074453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.777571 seconds.
+  path: Assets/Res/Main Characters/Pink Man/Fall (32x32).png
+  artifactKey: Guid(b903bb12943550f42bb458b31fe59791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Main Characters/Pink Man/Fall (32x32).png using Guid(b903bb12943550f42bb458b31fe59791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fbbf5c4a62bc00ce2ef11b141f2012') in 0.052976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Res/Main Characters/Pink Man/Jump (32x32).png
+  artifactKey: Guid(62899b41c686aaf4bb92cb680b7a7528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Main Characters/Pink Man/Jump (32x32).png using Guid(62899b41c686aaf4bb92cb680b7a7528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7feb19f701b9b961fa5b14a3b67d35') in 0.041768 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
