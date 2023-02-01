@@ -20,13 +20,12 @@ public class Platform_run : MonoBehaviour
         {
             transform.position += Vector3.right * _moveDir * _moveSpeed * Time.deltaTime;
         }
-        
+
+        if (gameObject.transform.position.y+4<_player.transform.position.y)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void StopMovement() => _hasToMove = false;
-
-    private void OnBecameInvisible()
-    {
-        Destroy(gameObject);
-    }
 }

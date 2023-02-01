@@ -1,0 +1,415 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Programms\Unity\Versions\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+F:/Nukio_project/jump_game/game
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+51541
+Successfully changed project path to: F:/Nukio_project/jump_game/game
+F:/Nukio_project/jump_game/game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 120.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Nukio_project/jump_game/game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.2686
+Initialize mono
+Mono path[0] = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006019 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 117.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Domain Reload Profiling:
+	ReloadAssembly (814ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (599ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (71ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008085 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Nukio_project\jump_game\game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Nukio_project\jump_game\game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 122.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.553 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1554ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (1170ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (632ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4252 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (301.8 KB). Loaded Objects now: 4705.
+Memory consumption went from 160.7 MB to 160.4 MB.
+Total: 4.272100 ms (FindLiveObjects: 0.414700 ms CreateObjectMapping: 0.122800 ms MarkObjects: 3.523800 ms  DeleteObjects: 0.209600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 174278.010282 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/Bonus/PNG/Background/Icon50.png
+  artifactKey: Guid(fe9a1f1dc62e27741b2750a2d88efdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/Bonus/PNG/Background/Icon50.png using Guid(fe9a1f1dc62e27741b2750a2d88efdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788d84b875a089004bd85e302e20dcc6') in 0.161450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.218185 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/Bonus/PNG/Transperent/Icon50.png
+  artifactKey: Guid(35dfff45c77dd414e9ee82351212f0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/Bonus/PNG/Transperent/Icon50.png using Guid(35dfff45c77dd414e9ee82351212f0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0a306477d40a8292bc1806fad5878c') in 0.012934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.874242 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon2.png
+  artifactKey: Guid(8063582409e756b47a96c86582bd0360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon2.png using Guid(8063582409e756b47a96c86582bd0360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b00d5a3b3038a51f02a7087875d133') in 0.014725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon21.png
+  artifactKey: Guid(564e2aba5820fb04ab2fa28a9db2baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon21.png using Guid(564e2aba5820fb04ab2fa28a9db2baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0964b7a18fc72365fadd7d456f7d2779') in 0.025293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon26.png
+  artifactKey: Guid(58ef83c531924404e8182178f3f4fc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon26.png using Guid(58ef83c531924404e8182178f3f4fc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d37ae37e4b4d40b809485659894801') in 0.032924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon23.png
+  artifactKey: Guid(84f2119e9710c294282bdcfc178eea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon23.png using Guid(84f2119e9710c294282bdcfc178eea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52d05155dbaf86e66a3316a76283b20') in 0.015338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon36.png
+  artifactKey: Guid(48368f25273c39a4d89ffca3c7bde859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon36.png using Guid(48368f25273c39a4d89ffca3c7bde859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a972eba1d66870c1cab5eee2f29f4c') in 0.013371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon39.png
+  artifactKey: Guid(ae53ded25a1c9e3459a570c6778e2df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon39.png using Guid(ae53ded25a1c9e3459a570c6778e2df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76802bcbd29dbbfc498f2a7b4fb3e71') in 0.014314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon30.png
+  artifactKey: Guid(8f51d3abe5d041f41beef16ace654628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon30.png using Guid(8f51d3abe5d041f41beef16ace654628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6afa35d18980847b02e40ba582a82e7') in 0.012993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon11.png
+  artifactKey: Guid(c5c25e39140f13f498d4d16b4358f58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon11.png using Guid(c5c25e39140f13f498d4d16b4358f58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7365cfe8d39581d48b19f8a44bd1f99f') in 0.015133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon40.png
+  artifactKey: Guid(e04b3b0b9d03f47418771244f44b8035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon40.png using Guid(e04b3b0b9d03f47418771244f44b8035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83977b4f18e23a30d74a681b30625fb') in 0.012896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon20.png
+  artifactKey: Guid(43c2caca9ab599f4aabb02d4694301fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon20.png using Guid(43c2caca9ab599f4aabb02d4694301fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91e507a2a212173f3d6ef775dbf938a') in 0.035116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon29.png
+  artifactKey: Guid(ebe32e4ab22421b45867c84772dec62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon29.png using Guid(ebe32e4ab22421b45867c84772dec62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74601112bc64ad634c1f0125f6e8d64') in 0.015198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon22.png
+  artifactKey: Guid(a2970410748e1364da1814789cad2d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon22.png using Guid(a2970410748e1364da1814789cad2d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102db7cf49046b5e5799ea845e8968f5') in 0.013545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon33.png
+  artifactKey: Guid(c2b8b101bce568a4e8cd830b37a879a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon33.png using Guid(c2b8b101bce568a4e8cd830b37a879a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a09526ae3f2317d627fb332ae4566e6') in 0.039861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon28.png
+  artifactKey: Guid(51c99f68e7f83b0409fa0e378b0afb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon28.png using Guid(51c99f68e7f83b0409fa0e378b0afb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b458b53e77356d92836cc2582312b60') in 0.017860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon25.png
+  artifactKey: Guid(e1e45d5f6d2df2a4192e22993cb4fe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon25.png using Guid(e1e45d5f6d2df2a4192e22993cb4fe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c86067b44f21206445fdc480c25837') in 0.014003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon16.png
+  artifactKey: Guid(683599f97cc9d25429d6d3e129ec7832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Background/Icon16.png using Guid(683599f97cc9d25429d6d3e129ec7832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fdf4139202e4319a46e05d1e4fe31e') in 0.018217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.362235 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon2.png
+  artifactKey: Guid(32b23d827a3e92146be0c370fd65e173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon2.png using Guid(32b23d827a3e92146be0c370fd65e173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc0501b8f4b531ffa62cd02d51d1d65') in 0.028268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon8.png
+  artifactKey: Guid(4c31e5638f4129147b929c54910d3ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon8.png using Guid(4c31e5638f4129147b929c54910d3ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3dbcb41cf5451688469ad118130d85') in 0.015021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon28.png
+  artifactKey: Guid(26fd53ece52247247be8d1bda937293c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon28.png using Guid(26fd53ece52247247be8d1bda937293c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2d88df0c0e3f4669eedef6bfee6ac8') in 0.012230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon21.png
+  artifactKey: Guid(6d08fe3022fcea543b2ae72afcc91a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon21.png using Guid(6d08fe3022fcea543b2ae72afcc91a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa2b519c4a05a063fc16aedcbc37c95') in 0.011676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon33.png
+  artifactKey: Guid(3bc46d452fe28f84fb98a74d3b171b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon33.png using Guid(3bc46d452fe28f84fb98a74d3b171b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c7d337203e4bf0677f5ac0abe3c67f') in 0.012107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon6.png
+  artifactKey: Guid(7534ab5a57309c349aa3bb3146b9a80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon6.png using Guid(7534ab5a57309c349aa3bb3146b9a80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a812f66af7eb9ad62249e46f28188e08') in 0.012206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon17.png
+  artifactKey: Guid(b73d9e8288c0f0b458dd3d6180a961c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon17.png using Guid(b73d9e8288c0f0b458dd3d6180a961c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d31ca7a85d3fc6e96f8eb4d3ec4bd8') in 0.011851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon16.png
+  artifactKey: Guid(a185ded356085c546a84bf6295be41f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon16.png using Guid(a185ded356085c546a84bf6295be41f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fcb1569941c84a3dd3e20b78962e15') in 0.011882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon47.png
+  artifactKey: Guid(c94fdf8d786fec441a107b23ff6aa6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon47.png using Guid(c94fdf8d786fec441a107b23ff6aa6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a1581e271af6f7648b2d5a590940f7') in 0.010969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon43.png
+  artifactKey: Guid(cb768ffbf420f1c4d887ab320f6c0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon43.png using Guid(cb768ffbf420f1c4d887ab320f6c0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d81c95997e4fc2282e20a5bb07505b') in 0.012674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon48.png
+  artifactKey: Guid(02af4058fa5c86641afa4066e2f0f55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon48.png using Guid(02af4058fa5c86641afa4066e2f0f55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ed953f5d88a305743601d27c0ea72f') in 0.012658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon5.png
+  artifactKey: Guid(97b80395385c66747a42b648f0d1eb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon5.png using Guid(97b80395385c66747a42b648f0d1eb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0fbfff11420e2a16807a476f66dbbc') in 0.252350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon14.png
+  artifactKey: Guid(d6bccba113bea6b4ea188284677cb314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon14.png using Guid(d6bccba113bea6b4ea188284677cb314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef27a0f00857b6d7598c4ed2f3028adf') in 0.011259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon27.png
+  artifactKey: Guid(e574b3dc521bf8846bad5c21700226ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon27.png using Guid(e574b3dc521bf8846bad5c21700226ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da78aca92a9ca89989dc87990506f3b') in 0.011740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon46.png
+  artifactKey: Guid(10469347068762e47a3d68969f8e06f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon46.png using Guid(10469347068762e47a3d68969f8e06f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d73efcc246669ef455cd9fb02b2b694') in 0.012058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon42.png
+  artifactKey: Guid(490c5b7aafb08dc4298bf40de93b667a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon42.png using Guid(490c5b7aafb08dc4298bf40de93b667a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5febc9bc34654a2a7943f8680de8827d') in 0.011848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon13.png
+  artifactKey: Guid(34f1cad1e443e9f47a8f3d2c930f721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon13.png using Guid(34f1cad1e443e9f47a8f3d2c930f721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbbd282571112e4831566c4654fb5d9') in 0.014008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon12.png
+  artifactKey: Guid(87d390811010b5442b1569b25af9afd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon12.png using Guid(87d390811010b5442b1569b25af9afd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3dd35835a159092061be5859cd8d02') in 0.028169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon24.png
+  artifactKey: Guid(9a6270b84190d9947a45a9c4e249e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon24.png using Guid(9a6270b84190d9947a45a9c4e249e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46158be2cac08779d9fa53bcbe00a7ce') in 0.012221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon7.png
+  artifactKey: Guid(9f88605ac621b2545b7b8a98f2682ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon7.png using Guid(9f88605ac621b2545b7b8a98f2682ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bc5ad0b6c591536ab2f80fe5d0b64e') in 0.012438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon18.png
+  artifactKey: Guid(ae649b85eb631834c85cfabbdeb5c5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon18.png using Guid(ae649b85eb631834c85cfabbdeb5c5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2e2f58d1cf924875b4d3a314846f6a') in 0.012757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon25.png
+  artifactKey: Guid(99d49a5335c82fe40b4da793ed618b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon25.png using Guid(99d49a5335c82fe40b4da793ed618b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a75346c8f2084c48085de003d2fde0') in 0.012485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon22.png
+  artifactKey: Guid(f488c51b011e78242bb8b224fbc49f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/free-undead-loot-pixel-art-icons/PNG/Transperent/Icon22.png using Guid(f488c51b011e78242bb8b224fbc49f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8d9ca213ee7ee9fc796dac9493eff2') in 0.014225 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

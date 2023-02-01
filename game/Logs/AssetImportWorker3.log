@@ -1,0 +1,259 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Programms\Unity\Versions\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+F:/Nukio_project/jump_game/game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51541
+Successfully changed project path to: F:/Nukio_project/jump_game/game
+F:/Nukio_project/jump_game/game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 116.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Nukio_project/jump_game/game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.2686
+Initialize mono
+Mono path[0] = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Programms/Unity/Versions/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005810 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 116.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Domain Reload Profiling:
+	ReloadAssembly (813ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (71ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008054 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Nukio_project\jump_game\game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Nukio_project\jump_game\game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 113.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.557 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1558ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (324ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4252 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (301.8 KB). Loaded Objects now: 4705.
+Memory consumption went from 160.3 MB to 160.0 MB.
+Total: 4.273500 ms (FindLiveObjects: 0.435900 ms CreateObjectMapping: 0.122000 ms MarkObjects: 3.506000 ms  DeleteObjects: 0.208400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 168615.558415 seconds.
+  path: Assets/Resource/character-pack-free_version/rpgmaker/MV/characters/$_srw_free_icons1.png
+  artifactKey: Guid(a3df9be7cb5ea3b42b5b31b90b790a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/character-pack-free_version/rpgmaker/MV/characters/$_srw_free_icons1.png using Guid(a3df9be7cb5ea3b42b5b31b90b790a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a5b4f6c418d8b683aa8d808d96d507') in 0.212307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resource/character-pack-free_version/rpgmaker/MV/characters/_srw_free_chests.png
+  artifactKey: Guid(a611ed3524bdc0d4b8b5ec353f34c59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/character-pack-free_version/rpgmaker/MV/characters/_srw_free_chests.png using Guid(a611ed3524bdc0d4b8b5ec353f34c59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bc76006bd58172b1a18c047da3831a') in 0.089680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/character-pack-free_version/rpgmaker/MV/characters/_srw_character_17-24.png
+  artifactKey: Guid(835381fe9b4e0164e9b4f399537c1a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/character-pack-free_version/rpgmaker/MV/characters/_srw_character_17-24.png using Guid(835381fe9b4e0164e9b4f399537c1a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa5383f80202fdb81e209fd474d0d2c') in 0.066300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.259932 seconds.
+  path: Assets/Resource/character-pack-free_version/rpgmaker/MZ/characters/$_srw_free_icons1.png
+  artifactKey: Guid(d19d3890714ef964ab12b829eadb90d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/character-pack-free_version/rpgmaker/MZ/characters/$_srw_free_icons1.png using Guid(d19d3890714ef964ab12b829eadb90d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd12a1e1d2f5d8dc0e8e28c42dba099') in 0.010061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resource/character-pack-free_version/rpgmaker/MZ/characters/_srw_character_25-32.png
+  artifactKey: Guid(e733c5259ba1d43449623e50b0f503b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/character-pack-free_version/rpgmaker/MZ/characters/_srw_character_25-32.png using Guid(e733c5259ba1d43449623e50b0f503b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489284b91e2681c8277085dda8beb133') in 0.049567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resource/character-pack-free_version/rpgmaker/MZ/characters/_srw_character_1-8.png
+  artifactKey: Guid(d586e438ae5ff3346beb18615ba36864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/character-pack-free_version/rpgmaker/MZ/characters/_srw_character_1-8.png using Guid(d586e438ae5ff3346beb18615ba36864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44de60dca8dc0a2e72150ff37323ada7') in 0.048279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.751450 seconds.
+  path: Assets/Resource/character-pack-free_version/rpgmaker/VXace/characters/$_srw_free_icons1.png
+  artifactKey: Guid(0952eb402c4ceec4688c5d98c8398647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/character-pack-free_version/rpgmaker/VXace/characters/$_srw_free_icons1.png using Guid(0952eb402c4ceec4688c5d98c8398647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5126c640358397bc1b7b6904a97a89fd') in 0.017108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resource/character-pack-free_version/rpgmaker/VXace/characters/_srw_character_17-24.png
+  artifactKey: Guid(46b98405b74917a468b7d51b6571a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/character-pack-free_version/rpgmaker/VXace/characters/_srw_character_17-24.png using Guid(46b98405b74917a468b7d51b6571a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7510499ce118b65f09a7e58c73a33d') in 0.036462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resource/character-pack-free_version/rpgmaker/VXace/characters/_srw_character_1-8.png
+  artifactKey: Guid(3806018481e539044a55caf0c89267aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/character-pack-free_version/rpgmaker/VXace/characters/_srw_character_1-8.png using Guid(3806018481e539044a55caf0c89267aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69b7a3dec708655c5bd669a8ca6679c') in 0.030492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.182284 seconds.
+  path: Assets/Resource/cyberpunk2077 fun/PNGS/faraday.png
+  artifactKey: Guid(1f68f7c3f5958564589e652da7d41c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/cyberpunk2077 fun/PNGS/faraday.png using Guid(1f68f7c3f5958564589e652da7d41c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04a38c3ab868180dc90bb37057939cc') in 0.024158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resource/cyberpunk2077 fun/PNGS/jackie.png
+  artifactKey: Guid(a6ff6cf8029438043a642e9a8ac63cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/cyberpunk2077 fun/PNGS/jackie.png using Guid(a6ff6cf8029438043a642e9a8ac63cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a820baa6eb59e7002506972721e2e3f0') in 0.024325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resource/cyberpunk2077 fun/PNGS/judyscuba.png
+  artifactKey: Guid(347844007d86f5349950c179246b14f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/cyberpunk2077 fun/PNGS/judyscuba.png using Guid(347844007d86f5349950c179246b14f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f61c1da619eb9eed4c40a07784e5d2') in 0.015088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resource/cyberpunk2077 fun/PNGS/johnny.png
+  artifactKey: Guid(4fc75c43c8438e54ea0afbb277e9def2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/cyberpunk2077 fun/PNGS/johnny.png using Guid(4fc75c43c8438e54ea0afbb277e9def2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3daea2644e1c0142f3acf40574737411') in 0.023260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resource/cyberpunk2077 fun/PNGS/kiwi.png
+  artifactKey: Guid(805861b6c9e4d1149b696232ffcbc534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/cyberpunk2077 fun/PNGS/kiwi.png using Guid(805861b6c9e4d1149b696232ffcbc534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb931ff73d8fbbae46ad8b3ecff93cf') in 0.015657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resource/cyberpunk2077 fun/PNGS/panamjacket.png
+  artifactKey: Guid(114c0c42a60e58b4aabe6dbfa540386e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resource/cyberpunk2077 fun/PNGS/panamjacket.png using Guid(114c0c42a60e58b4aabe6dbfa540386e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b6828535bfa7b8dafb81f80fdf6b73') in 0.023747 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
